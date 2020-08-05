@@ -11,6 +11,7 @@
 		955A52F924DAB54500A49003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A52F824DAB54500A49003 /* ContentView.swift */; };
 		955A52FB24DAB54700A49003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A52FA24DAB54700A49003 /* Assets.xcassets */; };
 		955A52FE24DAB54700A49003 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A52FD24DAB54700A49003 /* Preview Assets.xcassets */; };
+		955A530624DAB56C00A49003 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A530524DAB56C00A49003 /* LocalNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		955A52FA24DAB54700A49003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		955A52FD24DAB54700A49003 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		955A52FF24DAB54700A49003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955A530524DAB56C00A49003 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				955A52FA24DAB54700A49003 /* Assets.xcassets */,
 				955A52FF24DAB54700A49003 /* Info.plist */,
 				955A52FC24DAB54700A49003 /* Preview Content */,
+				955A530524DAB56C00A49003 /* LocalNotificationManager.swift */,
 			);
 			path = HowToUseLocalNotificationInSwiftUI;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955A530624DAB56C00A49003 /* LocalNotificationManager.swift in Sources */,
 				955A52F924DAB54500A49003 /* ContentView.swift in Sources */,
 				955A52F724DAB54500A49003 /* HowToUseLocalNotificationInSwiftUIApp.swift in Sources */,
 			);
